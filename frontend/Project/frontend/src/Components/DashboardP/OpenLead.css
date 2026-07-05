@@ -1,0 +1,70 @@
+.openlead-container {
+    width: 95%;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.12);
+}
+
+.openlead-title {
+    text-align: center;
+    color: #1e3a8a;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.openlead-table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+.openlead-table thead {
+    background: #2563eb;
+    color: white;
+}
+
+.openlead-table th,
+.openlead-table td {
+    padding: 14px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.openlead-table tbody tr:nth-child(even) {
+    background: #f8fafc;
+}
+
+.openlead-table tbody tr:hover {
+    background: #dbeafe;
+    transition: 0.3s;
+}
+
+.email-btn {
+    background: #10b981;
+    color: white;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: .3s;
+}
+
+.email-btn:hover {
+    background: #059669;
+    transform: scale(1.05);
+}
+
+.no-data {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    padding: 20px;
+}
+
+body{
+    background:#f4f7fb;
+}

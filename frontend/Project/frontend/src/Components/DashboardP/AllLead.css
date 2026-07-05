@@ -1,0 +1,97 @@
+.alllead-container {
+    width: 100%;
+    margin: 0;
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.12);
+}
+
+.alllead-title {
+    text-align: center;
+    color: #2563eb;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.alllead-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.alllead-table thead {
+    background: #2563eb;
+    color: white;
+}
+
+.alllead-table th,
+.alllead-table td {
+    padding: 14px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.alllead-table tbody tr:nth-child(even) {
+    background: #f8fafc;
+}
+
+.alllead-table tbody tr:hover {
+    background: #dbeafe;
+    transition: 0.3s;
+}
+
+/* Action Buttons */
+.action-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    margin: 0 5px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.delete-btn {
+    background: #ef4444;
+}
+
+.delete-btn:hover {
+    background: #dc2626;
+}
+
+.update-btn {
+    background: #3b82f6;
+}
+
+.update-btn:hover {
+    background: #2563eb;
+}
+
+.back-btn {
+    display: block;
+    margin: 25px auto 0;
+    padding: 10px 30px;
+    background: #6b7280;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    background: #4b5563;
+}
+
+.no-data {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    padding: 20px;
+}
+
+body {
+    background: #f4f7fb;
+}

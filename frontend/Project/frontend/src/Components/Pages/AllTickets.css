@@ -1,0 +1,139 @@
+/* Background */
+
+.ticket-page{
+    min-height:100vh;
+    background:#f4f7fc;
+    padding:40px;
+    font-family:"Segoe UI",sans-serif;
+}
+
+/* Card */
+
+.ticket-card{
+    background:#fff;
+    border-radius:12px;
+    padding:30px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+/* Heading */
+
+.ticket-title{
+    text-align:center;
+    font-size:30px;
+    color:#1f2937;
+    font-weight:700;
+    margin-bottom:25px;
+}
+
+/* Table */
+
+.ticket-table{
+    width:100%;
+    border-collapse:collapse;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+/* Header */
+
+.ticket-table thead{
+    background:#2563eb;
+    color:white;
+}
+
+.ticket-table th{
+    padding:16px;
+    text-align:left;
+    font-size:15px;
+    letter-spacing:.5px;
+}
+
+/* Body */
+
+.ticket-table td{
+    padding:15px;
+    border-bottom:1px solid #e5e7eb;
+    color:#374151;
+    vertical-align:top;
+}
+
+.ticket-table tbody tr:nth-child(even){
+    background:#f9fafb;
+}
+
+.ticket-table tbody tr:hover{
+    background:#eef4ff;
+    transition:.3s;
+}
+
+/* Description */
+
+.ticket-table td:nth-child(3){
+    max-width:350px;
+    word-break:break-word;
+    line-height:1.6;
+}
+
+/* Buttons */
+
+.action-btn{
+    display:flex;
+    gap:10px;
+}
+
+.update-btn{
+    background:#10b981;
+    color:#fff;
+    border:none;
+    padding:8px 18px;
+    border-radius:6px;
+    cursor:pointer;
+    font-weight:600;
+    transition:.3s;
+}
+
+.update-btn:hover{
+    background:#059669;
+    transform:translateY(-2px);
+}
+
+.delete-btn{
+    background:#ef4444;
+    color:white;
+    border:none;
+    padding:8px 18px;
+    border-radius:6px;
+    cursor:pointer;
+    font-weight:600;
+    transition:.3s;
+}
+
+.delete-btn:hover{
+    background:#dc2626;
+    transform:translateY(-2px);
+}
+
+/* Remove Link underline */
+
+.action-btn a{
+    text-decoration:none;
+}
+
+/* Responsive */
+
+@media(max-width:900px){
+
+.ticket-page{
+    padding:15px;
+}
+
+.ticket-card{
+    overflow-x:auto;
+}
+
+.ticket-table{
+    min-width:900px;
+}
+
+}

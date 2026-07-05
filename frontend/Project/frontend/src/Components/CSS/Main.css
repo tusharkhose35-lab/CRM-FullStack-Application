@@ -1,0 +1,80 @@
+/*  Register           */
+  body{
+    margin:auto;
+    align-content: center;
+    justify-content: center;
+    /* background-color: black ;
+    color:white; */
+  } 
+
+ .register-form{
+    height:400px;
+    width:60%;
+    padding:50px;
+    margin:50px auto;
+    border:2px solid grey;
+}
+
+.register-form input{
+    margin:10px;
+    height:35px;
+    width:80%;
+}
+  .register-btn{
+    height:35px;
+    width:120px;
+}
+ 
+/*  login           */
+
+/*Dashboard ccc*/
+.dashboard-container {
+  margin: 20px;
+  background: #ffffff;
+  padding: 20px;
+}
+
+.dashboard-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.custom-tabs .nav-link {
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+.lead-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.lead-table th, .lead-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.lead-table th {
+  background: #f8f9fa;
+  font-weight: 600;
+}
+
+.status-open {
+  color: green;
+  font-weight: bold;
+}
+
+.status-closed {
+  color: red;
+  font-weight: bold;
+}
+
+.card-box {
+  background: #fafafa;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #eee;
+  margin-bottom: 10px;
+}

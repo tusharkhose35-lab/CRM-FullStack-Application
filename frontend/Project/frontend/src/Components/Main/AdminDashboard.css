@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.dashboard {
+  display: flex;
+  height: 100vh;
+  background: #eef3f9;
+
+  background-image:
+    linear-gradient(rgba(10,25,47,.75), rgba(10,25,47,.75)),
+    url("/public/admin.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+/* Sidebar */
+
+.sidebar {
+  width: 250px;
+  background: linear-gradient(180deg, #173b74, #102b57);
+  color: white;
+  padding: 25px;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.logo h2 {
+  font-size: 28px;
+}
+
+.logo p {
+  color: #cfd8e6;
+  margin-top: 8px;
+}
+
+.menu-item {
+  display: block;
+  padding: 14px 18px;
+  margin: 12px 0;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.menu-item:hover {
+  background: #2d63b8;
+}
+
+.active {
+  background: #2d63b8;
+}
+
+.logout-btn {
+  width: 100%;
+  margin-top: 40px;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: #ff3c2f;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background: #d7281d;
+}
+
+/* Main Section */
+
+.main-content {
+  flex: 1;
+  padding: 30px;
+  background: #f4f7fc;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Dashboard Cards */
+
+.card-container {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-bottom: 35px;
+}
+
+.card {
+  width: 220px;
+  height: 140px;
+  background: white;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5px 18px rgba(0,0,0,.1);
+  transition: .3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.blue{
+    border-bottom:5px solid #2196F3;
+}
+
+.orange{
+    border-bottom:5px solid orange;
+}
+
+.green{
+    border-bottom:5px solid green;
+}
+
+.purple{
+    border-bottom:5px solid purple;
+}
+
+.page-content{
+    margin-top:20px;
+}

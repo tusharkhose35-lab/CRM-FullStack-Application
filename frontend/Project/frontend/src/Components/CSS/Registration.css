@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    margin:0;
+    background:#f4f7fb;
+}
+
+/* Full Page */
+
+.register-container{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:
+    linear-gradient(rgba(18,30,60,.65),rgba(18,30,60,.65)),
+    url("/public/regis.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+/* Card */
+
+.register-form{
+
+    width:460px;
+    background:rgba(255,255,255,.12);
+    backdrop-filter:blur(18px);
+    -webkit-backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,.25);
+
+    padding:40px;
+
+    border-radius:20px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.35);
+
+    animation:show .6s ease;
+}
+
+@keyframes show{
+
+from{
+opacity:0;
+transform:translateY(40px);
+}
+
+to{
+opacity:1;
+transform:translateY(0px);
+}
+
+}
+
+/* Heading */
+
+.register-form h2{
+
+text-align:center;
+color:white;
+margin-bottom:30px;
+font-size:32px;
+font-weight:700;
+
+}
+
+/* Inputs */
+
+.register-form input,
+.register-form select{
+
+width:100%;
+padding:15px 18px;
+margin-bottom:18px;
+
+border:none;
+outline:none;
+
+border-radius:12px;
+
+background:rgba(255,255,255,.18);
+
+color:white;
+
+font-size:15px;
+
+transition:.3s;
+
+}
+
+.register-form input::placeholder{
+
+color:#f1f1f1;
+
+}
+
+.register-form input:focus,
+.register-form select:focus{
+
+background:rgba(255,255,255,.28);
+
+box-shadow:0 0 15px rgba(255,255,255,.3);
+
+}
+
+/* Dropdown */
+
+.register-form select{
+
+cursor:pointer;
+
+}
+
+.register-form option{
+
+color:black;
+
+}
+
+/* Button */
+
+.register-form button{
+
+width:100%;
+
+padding:15px;
+
+border:none;
+
+border-radius:12px;
+
+font-size:17px;
+
+font-weight:600;
+
+cursor:pointer;
+
+color:white;
+
+background:linear-gradient(135deg,#2563EB,#7C3AED);
+
+transition:.3s;
+
+margin-top:10px;
+
+}
+
+.register-form button:hover{
+
+transform:translateY(-3px);
+
+box-shadow:0 12px 25px rgba(37,99,235,.4);
+
+}
+
+/* Login Link */
+
+.login-link{
+
+margin-top:20px;
+
+text-align:center;
+
+color:white;
+
+}
+
+.login-link span{
+
+color:#FFD54F;
+
+cursor:pointer;
+
+font-weight:600;
+
+}
+
+.login-link span:hover{
+
+text-decoration:underline;
+
+}
+
+/* Responsive */
+
+@media(max-width:600px){
+
+.register-form{
+
+width:90%;
+
+padding:30px;
+
+}
+
+.register-form h2{
+
+font-size:28px;
+
+}
+
+}

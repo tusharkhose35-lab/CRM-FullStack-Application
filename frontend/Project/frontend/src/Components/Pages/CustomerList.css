@@ -1,0 +1,119 @@
+/* Background */
+.customer-page {
+    min-height: 100vh;
+    background: #f4f7fc;
+    padding: 40px;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* Card */
+.customer-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+/* Heading */
+.customer-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+/* Table */
+.customer-table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+/* Header */
+.customer-table thead {
+    background: #2563eb;
+    color: white;
+}
+
+.customer-table th {
+    padding: 16px;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: .5px;
+}
+
+/* Rows */
+.customer-table td {
+    padding: 15px;
+    border-bottom: 1px solid #e5e7eb;
+    color: #374151;
+    font-size: 15px;
+}
+
+.customer-table tbody tr:nth-child(even) {
+    background: #f9fafb;
+}
+
+.customer-table tbody tr:hover {
+    background: #eef4ff;
+    transition: .3s;
+}
+
+/* Buttons */
+
+.action-btn{
+    display:flex;
+    gap:10px;
+}
+
+.update-btn{
+    background:#10b981;
+    color:white;
+    border:none;
+    padding:8px 18px;
+    border-radius:6px;
+    cursor:pointer;
+    font-weight:600;
+    transition:.3s;
+}
+
+.update-btn:hover{
+    background:#059669;
+    transform:translateY(-2px);
+}
+
+.delete-btn{
+    background:#ef4444;
+    color:white;
+    border:none;
+    padding:8px 18px;
+    border-radius:6px;
+    cursor:pointer;
+    font-weight:600;
+    transition:.3s;
+}
+
+.delete-btn:hover{
+    background:#dc2626;
+    transform:translateY(-2px);
+}
+
+/* Responsive */
+
+@media(max-width:900px){
+
+.customer-page{
+    padding:15px;
+}
+
+.customer-card{
+    overflow-x:auto;
+}
+
+.customer-table{
+    min-width:700px;
+}
+
+}
